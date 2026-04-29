@@ -130,3 +130,7 @@ Not really, i kinda just wrote down what I thought might be useful :b
       [languages.en.params.logo]
         logoText = "Home"
         logoHomeLink = "/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
