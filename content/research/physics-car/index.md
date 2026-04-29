@@ -1,7 +1,7 @@
 +++
 title = "Physics Car"
 date = "2026-04-15"
-portfolioCover = "img/covers/mls-mpm_cropped.png"
+portfolioCover = "img/covers/physics-car_cover.png"
 portfolioIcons=["icon/unrealengine.svg","icon/blender.svg"]
 weight = 3
 +++
