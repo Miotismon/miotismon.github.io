@@ -86,7 +86,8 @@ It’s my personal website including my portfolio and other stuff I decide I wan
 [[params.faqs]]
 question = "What's the best way to contact you?"
 answer = """
-For serious inquiries please use my email: daniel.jaloveckis07[at]gmail.com  \nOtherwise just dm me on [bsky](https://bsky.app/profile/miotismon.bsky.social).
+For serious inquiries please use my email: daniel.jaloveckis07[at]gmail.com  
+Otherwise just dm me on {{< link-new-tab url="https://bsky.app/profile/miotismon.bsky.social" text="bsky" >}}.
 """
 
 [[params.faqs]]
