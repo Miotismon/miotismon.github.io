@@ -1,0 +1,11 @@
+static websites:
+https://www.lucaspettersson.net/
+https://adityatelange.github.io/hugo-PaperMod/
+https://rkoziel.com/
+
+hugo theme used:
+https://github.com/panr/hugo-theme-terminal
+https://github.com/Louisload/hugo-theme-terminal-extended
+
+icons from: 
+https://simpleicons.org/

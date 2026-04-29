@@ -1,0 +1,31 @@
+{
+    "Name": "Miotismon ",
+    "Description": "gamedev",
+    "Image": "/img/rasputin.png",
+    "Socials": [
+        {
+            "Link": "https://instagram.com/Louisload",
+            "Icon": "/icon/instagram.svg",
+            "AltText": "Instagram"
+        },
+        {
+            "Link": "https://www.twitter.com/Louisload",
+            "Icon": "/icon/twitter.svg",
+            "AltText": "Twitter"
+        }
+    ],
+    "List": [
+        {
+            "Type": "text",
+            "Content": "Hi, I’m Miotismon, but just call me Mio (MEE-oh).  \nI’m a programmer and wanna-be technical artist based in Germany.",
+            "HtmlClasses": "desktopOnly"
+        },
+        {
+            "Type": "link",
+            "Link": "https://en.wikipedia.org/wiki/Ubuntu",
+            "Icon": "/icon/linux.svg",
+            "Content": "My Favorite Distro",
+            "OpenNewTab": true
+        }
+    ]
+}

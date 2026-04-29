@@ -1,0 +1,132 @@
+baseurl = "/"
+languageCode = "en-us"
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+theme = "terminal-custom"
+pagination.pagerSize = 5
+
+disableKinds = ["rss", "sitemap"]
+
+
+# Required for Chroma and the custom syntax highlighting.
+[markup.highlight]
+  noClasses = false
+
+
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
+  # whether to show a page's estimated reading time
+  # readingTime = false # default
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  # Toc = false # default
+
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle = "Table of Contents" # default
+
+  # Set date/time format for posts
+  # This will impact the date/time displayed on
+  # index.html, the posts list page, and on posts themselves
+  # This value can also be configured per-post on front matter
+  # If you have any issues with the timezone rendering differently
+  # than you expected, please ensure your timezone is correctly set
+  # on your server.
+  # This value can be customized according to Hugo documentation:
+  # https://gohugo.io/functions/time/format/
+  # Default value (no changes needed):
+  # dateFormat = "2006-01-02"
+  # Example format, with date, time, and timezone abbreviation:
+  # dateFormat = "2006-01-02 3:04:06 PM MST"
+
+
+[params.twitter]
+# set Twitter handles for Twitter cards
+# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+# do not include @
+creator = ""
+site = ""
+
+
+[[params.faqs]]
+question = "What is this site?"
+answer = """
+It’s my personal website including my portfolio and other stuff I decide I wanna show off.
+"""
+
+[[params.faqs]]
+question = "What's the best way to contact you?"
+answer = """
+For serious inquiries please use my email: daniel.jaloveckis07[at]gmail.com  \nOtherwise just dm me on bsky.
+"""
+
+[[params.faqs]]
+question = "What is this color palette? I like it."
+answer = """
+I'm glad you like it :)  The colors are: 
+- a dark grey: #121111  
+- a vanilla/banana: #f3e5ab  
+- and what I like to call "Artificer red": #ad375d  
+
+Very much inspired by a german drink called KiBa (CherryBanana), basically just cherry and banana juice in a glass but not mixed at all, so they keep their individual colors and you get a beautiful marbled appearance.  
+This specific shade of red I used here originated from the Slugcat "Artificer" from "Rain World: Downpour" (Hey look that's also my pfp waow).
+"""
+
+[[params.faqs]]
+question = "Do all of these questions really get asked that frequently?"
+answer = """
+Not really, i kinda just wrote down what I thought might be useful :b
+"""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Mio's Portfolio"
+
+    [languages.en.params]
+      subtitle = "Mio's Portfolio"
+      owner = "Miotismon"
+      keywords = ""
+      copyright = "Miotismon"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Home"
+        logoHomeLink = "/"

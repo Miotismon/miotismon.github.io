@@ -1,0 +1,28 @@
+{
+    "Name": "Miotismon ",
+    "Description": "gamedev",
+    "Image": "/img/rasputin.png",
+    "Socials": [
+        {
+            "Link": "https://bsky.app/profile/miotismon.bsky.social",
+            "Icon": "/icon/Bluesky.svg",
+            "AltText": "Bluesky"
+        },
+        {
+            "Link": "https://miotismon.itch.io/",
+            "Icon": "/icon/itchdotio.svg",
+            "AltText": "Itch.io"
+        },
+        {
+            "Link": "https://github.com/Miotismon",
+            "Icon": "/icon/github.svg",
+            "AltText": "Github"
+        }
+    ],
+    "List": [
+        {
+            "Type": "text",
+            "Content": "Hi, I’m Miotismon, but just call me Mio (MEE-oh).  \nI’m a programmer and wanna-be technical artist based in Germany."
+        }
+    ]
+}
