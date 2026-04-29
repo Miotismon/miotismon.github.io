@@ -1,0 +1,9 @@
+<section class="faq">
+    <h1>FAQ</h1>
+    {{ range .Site.Params.faqs }}
+    <details>
+        <summary>{{ .question | markdownify }}</summary>
+        <p>{{ .answer | markdownify }}</p>
+    </details>
+    {{ end }}
+</section>

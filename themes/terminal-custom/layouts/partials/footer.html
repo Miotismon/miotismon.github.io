@@ -1,0 +1,23 @@
+<footer class="footer">
+  <div class="footer__inner">
+    {{ if $.Site.Params.copyright }}
+      <div class="copyright copyright--user">
+        <span>:: © {{ now.Year }} {{ $.Site.Params.copyright | safeHTML }} ::</span>
+    {{ else }}
+      <div class="copyright">
+        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a></span>
+    {{ end }}
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank" rel="noopener noreferrer">Theme</a> by <a href="https://github.com/panr" target="_blank" rel="noopener noreferrer">panr</a>, with <a href="https://github.com/Louisload/hugo-theme-terminal-extended" target="_blank" rel="noopener noreferrer">modifications</a> by <a href="https://github.com/louisload" target="_blank" rel="noopener noreferrer">Louisload</a> ::</span>
+      </div>
+  </div>
+</footer>
+
+{{ $menu := resources.Get "js/menu.js" | js.Build }}
+{{ $cp := resources.Get "js/code.js" | js.Build }}
+
+{{ $bundle := slice $menu $cp | resources.Concat "bundle.js" | resources.Minify }}
+
+<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+
+<!-- Extended footer section-->
+{{ partial "extended_footer.html" . }}

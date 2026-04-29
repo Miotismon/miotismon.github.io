@@ -1,0 +1,5 @@
+{{- if .Get "url" -}}
+    <a href="{{ .Get "url" }}" target="_blank" rel="noopener noreferrer">{{ .Get "text" | default (.Get "url") }}</a>
+{{- else -}}
+    {{ errorf "link-new-tab needs a \"url\". The issue occured in %q (%q)" .Page.File .Page.Permalink }}
+{{- end -}}

@@ -1,0 +1,60 @@
+/* FAQ container */
+.faq {
+    max-width: 800px;
+    margin: 3rem 0;
+}
+
+/* Each item */
+.faq details {
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.faq details:hover {
+    border-color: var(--foreground);
+}
+
+/* Question (clickable) */
+.faq summary {
+    cursor: pointer;
+    padding: 1rem 3rem 1rem 1.25rem;
+    font-weight: 600;
+    list-style: none;
+    /* removes default arrow */
+    position: relative;
+}
+
+/* Remove default marker (for some browsers) */
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Custom arrow */
+.faq summary::after {
+    content: "›";
+    position: absolute;
+    right: 1.25rem;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+/* Rotate arrow when open */
+.faq details[open] summary::after {
+    transform: rotate(90deg);
+}
+
+/* Answer */
+.faq p {
+    padding: 0 1.25rem 1rem;
+    margin: 0;
+}
+
+/* fix for markdownify spamming empty paragraphs */
+.faq p:empty {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
