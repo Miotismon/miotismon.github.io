@@ -143,3 +143,7 @@
     margin: 5px;
     display: inline;
 }
+
+.extraLink img[src$=".svg"] {
+    filter: brightness(0) invert(1);
+}

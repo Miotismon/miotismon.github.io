@@ -10,7 +10,7 @@
             {{ .Title | markdownify }}
             {{ if .Params.portfolioIcons}}
               {{ range .Params.portfolioIcons }}
-                <img class="portfolio-grid-item-icon" height="14" width="14" src={{ . | absURL }} />
+                <img class="portfolio-grid-item-icon" src={{ . | absURL }} />
               {{ end }}
             {{ end }}
           </div>

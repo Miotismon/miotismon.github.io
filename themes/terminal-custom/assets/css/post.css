@@ -139,3 +139,11 @@ h6:hover .hanchor {
     border-width: 10px;
   }
 }
+
+.post-content img{
+  border: 1px solid var(--accent);
+  margin-bottom: 10px;
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+}
