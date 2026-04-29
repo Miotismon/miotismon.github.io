@@ -5,7 +5,7 @@
     "Socials": [
         {
             "Link": "https://bsky.app/profile/miotismon.bsky.social",
-            "Icon": "/icon/Bluesky.svg",
+            "Icon": "/icon/bluesky.svg",
             "AltText": "Bluesky"
         },
         {
@@ -22,7 +22,7 @@
     "List": [
         {
             "Type": "text",
-            "Content": "Hi, I’m Miotismon, but just call me Mio (MEE-oh).  \nI’m a programmer and wanna-be technical artist based in Germany."
+            "Content": "Hi, I’m Miotismon, but just call me Mio (MEE-oh).  \nI’m a programmer and technical artist based in Germany."
         }
     ]
 }
