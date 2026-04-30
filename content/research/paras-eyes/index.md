@@ -26,10 +26,10 @@ One way to achieve this effect in 3d software would be to use a mesh for the eye
 This often gets used in "inverted hull meshes" to make easy view dependent outlines for 3d objects.
 If we setup backface-culling we will always look "inside" of the mesh and if we then put a seperate pupil mesh inside of the outside eye mesh, we should get a pupil that's always facing toward the viewer.
 
-Now it's time  to try this out for ourselves and compare.
-I couldn't rly find a video of a Paras in a recent Pokemon game that shows it's eyes, buuut I did find a {{< link-new-tab url="https://youtu.be/J5YrwNWIwl0?si=wqUQDrDPWNHUJN-H&t=24" text="video of Venonat" >}}, which seems to also use this inverted mesh method.
+Now it's time to try this out for ourselves and compare.
+I couldn't really find a video of a Paras in a recent Pokemon game that shows it's eyes, buuut I did find a {{< link-new-tab url="https://youtu.be/J5YrwNWIwl0?si=wqUQDrDPWNHUJN-H&t=24" text="video of Venonat" >}}, which seems to also use this inverted mesh method.
 So I downloaded a Venonat model from {{< link-new-tab url="https://models.spriters-resource.com/nintendo_switch/pokemonscarletviolet/asset/341483/" text="The Models Resource" >}} (bless whoever uploaded that), and put it in Blender to try it out.
-And after some material fixing (and remembering to enable backface culling for my eye material, duh) we get a pretty similar result to the video.
+And after some material fixing (and remembering to enable backface culling for my eye material) we get a pretty similar result to the video.
 
 ![My Venonat](venonat.gif)
 
