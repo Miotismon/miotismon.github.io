@@ -8,7 +8,8 @@ weight = 3
 
 {{< link-new-tab url="https://github.com/Miotismon/unreal-raycast-car" text="Github Link" >}}
 
-Trying to make a semi-realistic physics-based car controller.
+Trying to make a semi-realistic physics-based car controller in Unreal.
+I know they already have their own Chaos Vehicle Plugin, but I wanted to have something personal and get a deeper understanding of Unreal C++ code.
 
 I also modeled my own car model in Blender (based on the Mazda RX-7).
 
