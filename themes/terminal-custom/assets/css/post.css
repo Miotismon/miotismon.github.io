@@ -47,18 +47,35 @@
   margin-top: 0 !important;
   margin-bottom: 15px !important;
   padding-bottom: 15px;
-  border-bottom: 3px dotted var(--accent);
   text-decoration: none !important;
 }
 
-.post-title::after {
+.post-title::after,
+.post-title::before {
   content: "";
   position: absolute;
-  bottom: 2px;
-  display: block;
-  width: 100%;
-  border-bottom: 3px dotted var(--accent);
+  left: 0;
+  right: 0;
+
+  height: 3px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--accent),
+    var(--accent) 2px,
+    transparent 2px,
+    transparent 6px
+  );
 }
+
+.post-title::before {
+  bottom: 6px;
+}
+
+.post-title::after {
+  bottom: 0;
+}
+
+
 
 .post-title a {
   text-decoration: none;
