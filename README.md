@@ -1,4 +1,4 @@
-# My (unfinished) github webpage
+# My github webpage
 
 Made with Hugo: https://gohugo.io
 Hugo Theme Terminal: https://github.com/panr/hugo-theme-terminal  
