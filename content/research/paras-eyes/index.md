@@ -2,7 +2,7 @@
 title = "Paras' Eyes"
 date = "2026-04-15"
 portfolioCover = "img/covers/paras.png"
-portfolioIcons = []
+portfolioIcons = ["icon/blender.svg"]
 weight = 5
 +++
 
@@ -34,7 +34,7 @@ And after some material fixing (and remembering to enable backface culling for m
 ![My Venomoth](venomoth.gif)
 
 
-Although the effect in the Pokemon GO examples does look a bit different to me. {{< link-new-tab url="https://i.redd.it/zma5ygho8cty.gif" text="In this gif" >}} I can't seem to be able to pinpoint an exact 3d location on the model where the pupil of the eyes would be. I think for Pokemon GO the Eye effect might have been done with a simple parallax shader for the pupils, since it looks like both pupils always have a similar offset from the eye.
+Although the effect in the Pokemon GO examples does look a bit different to mine. {{< link-new-tab url="https://i.redd.it/zma5ygho8cty.gif" text="In this gif" >}} I can't seem to be able to pinpoint an exact 3d location on the model where the pupil of the eyes would be. I think for Pokemon GO the Eye effect might have been done with a simple parallax shader for the pupils, since it looks like both pupils always have a similar offset from the eye.
 
 Anyways I'm very proud of my Venonat and I can't wait to use this technique to make more cute eyed characters that stare into your soul in the future.
 
