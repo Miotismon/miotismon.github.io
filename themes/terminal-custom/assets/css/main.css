@@ -1,7 +1,7 @@
 :root {
-  --background: #1a170f;
-  --foreground: #eceae5;
-  --accent: #eec35e;
+  --background: #121111;
+  --foreground: #f3e5ab;
+  --accent: #ad375d;
   --font-size: 1rem;
   --line-height: 1.54em;
   --radius: 0;
@@ -518,4 +518,9 @@ iframe[src*="youtube.com"] {
   .content {
     display: initial;
   }
+}
+
+::selection{
+  background-color: var(--accent);
+  color: var(--foreground);
 }
