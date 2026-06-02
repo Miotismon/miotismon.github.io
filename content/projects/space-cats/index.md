@@ -18,3 +18,4 @@ As of now (May 2026), Unreal is still kicking our butts, but we're making progre
 ![Level Generation](level_generation.png)
 ![Player Character](glorp_changing_color.gif)
 ![Signal VFX](signal_vfx.gif)
+![Glorp walking across screen with emote](UnrealEditor_54a5AcaJYr.gif)
