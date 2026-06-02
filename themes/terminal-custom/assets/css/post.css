@@ -164,3 +164,14 @@ h6:hover .hanchor {
   display: inline-block;
   vertical-align: middle;
 }
+
+.post-content img.full{
+  border: 1px solid var(--accent);
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+

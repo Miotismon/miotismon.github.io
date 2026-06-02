@@ -15,7 +15,5 @@ I've been learning a ton about multiplayer in this project, specifically Unreal 
 We're also working on stable pixel-art style 3d rendering based on {{< link-new-tab url="https://dylanebert.com/texel-splatting/" text="this paper" >}} by Dylan Ebert, here's a {{< link-new-tab url="https://www.youtube.com/watch?v=SELiz9VRg5Q" text="short explanatory video" >}} he made. 
 As of now (May 2026), Unreal is still kicking our butts, but we're making progress.
 
-![Level Generation](level_generation.png)
-![Player Character](glorp_changing_color.gif)
-![Signal VFX](signal_vfx.gif)
-![Glorp walking across screen with emote](UnrealEditor_54a5AcaJYr.gif)
+{{< image-layout img1="level_generation.png" img2="signal_vfx.gif" img3="glorp_changing_color.gif">}}
+{{< full-image src="UnrealEditor_54a5AcaJYr.gif" alt="Glorp walking across screen with emote">}}
