@@ -23,6 +23,13 @@
         {
             "Type": "text",
             "Content": "Hi, I’m Miotismon, but just call me Mio (MEE-oh).  \nI’m a programmer and technical artist based in Germany.  \nI have a BSc in Computer Science."
+        },
+        {
+            "Type": "link",
+            "Link": "https://miotismon.itch.io/",
+            "Icon": "/icon/itchdotio.svg",
+            "Content": "Take a look at my smaller projects and GameJam submissions on itch.",
+            "OpenNewTab": true
         }
     ]
 }

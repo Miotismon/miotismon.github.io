@@ -1,5 +1,5 @@
 :root {
-    --iconSize: 46px;
+    --iconSize: 30px;
     --extraLinkSize: 30px;
 }
 
@@ -47,7 +47,6 @@
     margin: 20px 0px;
     text-decoration: none;
     font-size: 14pt;
-    transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accent) 2px;
     border-radius: 8px;
     padding: 16px;
@@ -55,26 +54,25 @@
 
 .linkContainer {
     display: block;
-    background-color: var(--accent);
+    background-color: var(--background);
     margin: 20px 0px;
     text-decoration: none;
     font-size: 14pt;
-    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    transition: all 0.2s ease;
     border: solid var(--accent) 2px;
     border-radius: 8px;
-    color: var(--background);
+    color: var(--foreground);
 }
 
 .linkContainer:hover{
-    background-color: var(--background);
-    color: var(--accent);
+    border-color: var(--foreground);
 }
 
 .link {
     border: medium none;
     -moz-box-align: center;
     -moz-box-pack: center;
-    padding: 15px 5px;
+    padding: 16px;
     margin: 0px;
     font-family: inherit;
     font-weight: inherit;
@@ -90,7 +88,6 @@
     height: auto;
     position: relative;
     fill: inherit;
-    padding: 16px 66px;
 }
 
 .linkIconContainer {
@@ -101,7 +98,7 @@
     object-position: initial;
     filter: none;
     top: 50%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     pointer-events: none;
     overflow: hidden;
     -moz-box-pack: center;
@@ -109,9 +106,15 @@
     -moz-box-align: center;
     align-items: center;
     border-radius: 4px;
-    position: absolute;
-    left: 8px;
-    fill: inherit;
+    /* position: absolute; */
+    /* left: 8px;
+    fill: inherit; */
+    margin-right: 10px;
+}
+
+
+.linkIconContainer img[src$=".svg"] {
+    filter: brightness(0) invert(1);
 }
 
 .linkText, .textContainer p {

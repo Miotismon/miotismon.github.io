@@ -1,5 +1,5 @@
 +++
-title = "Link List"
+title = "Home"
 date = "0069-04-20"
 author = "Mio"
 type = "home-page"
