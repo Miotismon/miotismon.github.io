@@ -42,7 +42,7 @@ To make the effect weak in the centre and stronger towards the edges of the scre
 
 Now one more thing. You can tell that the game behind the shattered screen shards turns white and after the shards fly away the effect fades out. To do that I just added a whiteout progress uniform that at 1.0 turns the whole screen white and can slowly be turned back down to 0.0 to have the normal effect back. And to animate all those uniforms and the shards I just used a ton of Tweens in two seperate scripts, one on the Camera for the shards and one on the ColorRect itself.
 
-I'm sure there's a bunch of other things you could add here to make this better looking like fake bloom and stuff but I'm happy enough with this.
+I'm sure there's a bunch of other things you could add here to make this better looking like fake bloom and stuff and it definitely needs more polish and tweaking if it we're actually used somewhere, but I'm happy enough with this for now.
 
 Here's the full blue smear shader code if you want to use it for your own effects.
 ```glsl
