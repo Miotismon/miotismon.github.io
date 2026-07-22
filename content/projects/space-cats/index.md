@@ -8,7 +8,7 @@ weight = 3
 
 A game my friends and I are working on, with the plan of releasing it on Steam as a full-fledged product.
 
-The idea is a silly physics-based co-op game where you explore a procedurally generated, disaster-stricken spaceship with your friends and have to solve a few logic and physics puzzles along the way, with the goal of saving any survivors.
+The idea is a silly physics-based co-op game where you explore a procedurally generated, disaster-stricken spaceship with your friends and have to solve a few logic and variable gravity physics puzzles along the way, with the goal of saving any survivors. The reason it's set on a spaceship is so we can mess around with the gravity and still keep a coherent setting. 
 
 I've been learning a ton about multiplayer in this project, specifically Unreal Replication and Network roles. I've also been learning how to make menus with Widgets, how to make dynamic materials using Dynamic Material Instances and Custom Primitive Data, and how to make Animation Blueprints do what I want them to do.
 
