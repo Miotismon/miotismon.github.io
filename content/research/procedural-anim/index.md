@@ -8,6 +8,8 @@ weight = 3
 
 Simple test of my abilities using Control Rig to setup a procedurally animated walking crab using Locomotor plugin. The Locomotor is quite nice to get something quickly setup and running. The setup is incredibly simple and you just have to tweek the values, but I think a self spun walking system, like explained in {{< link-new-tab url="https://www.youtube.com/watch?v=E23zeX0Mttc" text="this video" >}} would make for a much better looking result.
 
+Credits for the model: {{< link-new-tab url="https://sketchfab.com/3d-models/animated-crab-rigged-free-ca331da937b04b0f94b9245d5f2ac778" text="TwilightFox on Sketchfab" >}}
+
 
 ![Control Rig Setup](image.png)
 
